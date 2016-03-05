@@ -1,0 +1,20 @@
+QT TruthQuestion
+Q Is this a multiple choice question?
+A0 True
+A1 False
+CA A0
+QT SingleAnswerQuestion
+Q How many questions does this assignment have?
+A0 0
+A1 1
+A2 2
+A3 3
+A4 None of the above
+CA A3
+QT MultiAnswerQuestion
+Q Which statements are true about this question?
+A0 It is a question
+A1 It has a single correct answer
+A2 It has multiple correct answers
+A3 This question will not feature in your exam
+CA A0 A2 A3
